@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Maze Runner Game
+
+A React-based maze game with 50 progressively difficult levels where players need to navigate through mazes to collect prizes.
+
+## Features
+
+- 50 progressively difficult maze levels
+- Random maze generation for diverse gameplay
+- Time-limited challenges
+- Player movement with arrow keys or on-screen controls
+- Track moves and completion time
+- Mobile-responsive design
+
+## Game Rules
+
+1. Navigate the maze using arrow keys or the on-screen directional buttons
+2. Avoid walls and find the shortest path to the prize
+3. Complete each level within the time limit
+4. Complete levels to unlock new ones
+5. Try to complete all levels with the fewest moves and fastest times
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm or yarn
+
+### Installation
+
+1. Clone this repository
+2. Navigate to the project directory
+3. Install dependencies:
+```
+npm install
+```
+4. Start the development server:
+```
+npm start
+```
+5. Open your browser and navigate to `http://localhost:3000`
+
+## Technologies Used
+
+- React
+- JavaScript (ES6+)
+- CSS3
+
+## Game Mechanics
+
+- **Maze Generation**: Each level features a uniquely generated maze with increasing size and complexity
+- **Difficulty Progression**: As levels increase, maze size grows, wall density increases, and time limits tighten
+- **Player Movement**: Control the player using keyboard arrows or on-screen controls
+- **Prize Collection**: Reach the gold prize to complete each level
+- **Level Unlocking**: Complete a level to unlock the next one
+- **Performance Tracking**: Track moves and completion time for each level
+
+## Development
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
-In the project directory, you can run:
+- `npm start`: Runs the app in development mode
+- `npm test`: Launches the test runner
+- `npm run build`: Builds the app for production to the `build` folder
+- `npm run eject`: Ejects the app from Create React App
 
-### `npm start`
+## License
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.
